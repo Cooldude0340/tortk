@@ -1,0 +1,21 @@
+{
+    "name": "TorToolkit-Telegram",
+    "description": "Telegram leecher bot with python",
+    "logo": "https://raw.githubusercontent.com/devillD/TorToolkit-Telegram/heroku/toolkit.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "qBittorrent",
+      "python"
+    ],
+    "repository": "https://github.com/devillD/TorToolkit-Telegram",
+    "website": "https://github.com/devillD/TorToolkit-Telegram/tree/heroku",
+    "success_url": "https://github.com/devillD/TorToolkit-Telegram/blob/heroku/readme.md",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    }
+    }
+}
