@@ -13,9 +13,9 @@
     "success_url": "https://github.com/devillD/TorToolkit-Telegram/blob/heroku/readme.md",
     "stack": "container",
     "env": {
-      "ENV": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
+      "BASE_URL_OF_BOT": {
+      "description": "Base URL of your bot to select files",
+      "value": "<your heroku app name>.herokuapp.com"
     }
     }
 }
