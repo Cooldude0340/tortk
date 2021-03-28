@@ -1,4 +1,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devillD/TorToolkit-Telegram/tree/heroku)
+# WebUI
+WebUI for selecting individual torrent file
+
 # Note
 Everytime before you leech, you need to visite the app url to startup the bot from idling
 
