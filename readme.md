@@ -1,4 +1,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devillD/TorToolkit-Telegram/tree/heroku)
+# Note
+Everytime before you leech, you need to visite the app url to startup the bot from idling
 
 # TorToolkit Telegram
 So basically Tortoolkit is aimed to be most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizeable and to customize this bot you dont need to restart the bot everytime. 
