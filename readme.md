@@ -15,7 +15,7 @@ The bot gets started with minimum variables and others can be set as and when ne
 
 ## As This is a first release of this project the installation is a bit lengthy but takes less than 10 mins.
 ## In subsequent releases i will try to make one click install 
-## For Heroku users New repo will come soon (This repo will not work on heroku)
+
 
 ## Installing
 ### [Demo video for direct clone and run](https://youtu.be/HYjG4-VfxXs)
