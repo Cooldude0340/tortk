@@ -39,7 +39,7 @@
     },
     "BASE_URL": {
       "description": "Base URL for selecting torrent file",
-      "value": "https://<your app name>.herokuapp.com"
+      "value": "<your app name>.herokuapp.com"
     },
     "TG_UP_LIMIT": {
       "description": "Telegram upload limit (in bytes)",
