@@ -8,7 +8,7 @@ except:
         IS_VPS = False
         API_HASH = os.environ.get("API_HASH")
         API_ID = int(os.environ.get("API_ID"))
-        BOT_TOKEN = os.environ.get("API_HASH")
+        BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = int(os.environ.get("SUDO_CHATS"))
