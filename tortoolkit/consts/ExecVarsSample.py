@@ -1,3 +1,4 @@
+import os
 try:
     from .ExecVars import ExecVars
 except:
@@ -5,18 +6,18 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = ""
-        API_ID = 2067809
-        BOT_TOKEN = "1655614077:xxxxxxxxxxxxx"
-        BASE_URL_OF_BOT = "<your heroku app name>.herokuapp.com"
+        API_HASH = os.environ.get("API_HASH")
+        API_ID = int(os.environ.get("API_ID"))
+        BOT_TOKEN = os.environ.get("API_HASH")
+        BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1291911714,871967943]
+        ALD_USR = int(os.environ.get("SUDO_CHATS"))
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = int(os.environ.get("TG_UP_LIMIT"))
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -28,7 +29,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://smgwamxtaceuee:ec0218a8bad57cd24ca482534febc348f5975e3fd4714a854070710f1e720498@ec2-52-44-31-100.compute-1.amazonaws.com:5432/d48rnfg6ku8cht"
+        DB_URI = os.environ.get("DATABASE_URL")
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
