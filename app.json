@@ -21,10 +21,6 @@
     "success_url": "https://github.com/devillD/TorToolkit-Telegram/blob/heroku/readme.md",
     "stack": "container",
     "env": {
-      "ENV": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
-    },
     "API_HASH": {
       "description": "Get your api hash from http://my.telegram.org/",
       "value": "xxxxxxxxxxxx"
@@ -37,13 +33,17 @@
       "description": "Get your bot token from @BotFather",
       "value": "xxxxxxxx"
     },
-    "ALD_USR": {
+    "SUDO_CHATS": {
       "description": "ALLOWED USERS [ids of user or supergroup] seperate by commas",
       "value": "1291911714,871967943"
     },
-    "DB_URI": {
-      "description": "Your Database URI(postgresql)",
-      "value": "postgres://smgwamxtaceuee:ec0218a8bad57cd24ca482534febc348f5975e3fd4714a854070710f1e720498@ec2-52-44-31-100.compute-1.amazonaws.com:5432/d48rnfg6ku8cht"
+    "BASE_URL": {
+      "description": "Base URL for selecting torrent file",
+      "value": "https://<your app name>.herokuapp.com"
+    },
+    "TG_UP_LIMIT": {
+      "description": "Telegram upload limit (in bytes)",
+      "value": "1700000000"
     }
   }
 }
