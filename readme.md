@@ -1,3 +1,6 @@
+# Edit
+Edit this [Line](https://github.com/devillD/TorToolkit-Telegram/blob/0576e895083e1fe2915c072ee42cc9ab4a14f770/tortoolkit/consts/ExecVarsSample.py#L14) with your own before deploying!
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devillD/TorToolkit-Telegram/tree/heroku)
 # WebUI
 WebUI for selecting individual torrent file
