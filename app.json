@@ -8,6 +8,14 @@
       "qBittorrent",
       "python"
     ],
+    "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+        }
+      }
+    ],
     "repository": "https://github.com/devillD/TorToolkit-Telegram",
     "website": "https://github.com/devillD/TorToolkit-Telegram/tree/heroku",
     "success_url": "https://github.com/devillD/TorToolkit-Telegram/blob/heroku/readme.md",
