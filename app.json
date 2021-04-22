@@ -33,10 +33,6 @@
       "description": "Get your bot token from @BotFather",
       "value": "xxxxxxxx"
     },
-    "SUDO_CHATS": {
-      "description": "ALLOWED USERS [ids of user or supergroup] seperate by commas",
-      "value": "1291911714,871967943"
-    },
     "BASE_URL": {
       "description": "Base URL for selecting torrent file",
       "value": "<your app name>.herokuapp.com"
