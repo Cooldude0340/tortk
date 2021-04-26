@@ -58,7 +58,7 @@
       "value": "status"
     },
     "SETTINGS_CMD": {
-      "description": "Admin Settings command",
+      "description": "Admin Settings command! Better not keep it as default. Make it harder to guess ;)",
       "value": "settings"
     },
     "EXEC_CMD": {
@@ -90,7 +90,7 @@
       "value": "server"
     },
     "USERSETTINGS_CMD": {
-      "description": "User Settings command",
+      "description": "User Settings command for specified users or groups",
       "value": "uset"
     }
   }
