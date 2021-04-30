@@ -11,7 +11,7 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = os.environ.get('[SUDO_CHATS]')
+        ALD_USR = os.environ.get(['SUDO_CHATS'])
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
