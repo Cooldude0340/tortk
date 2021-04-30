@@ -34,4 +34,4 @@ RUN chmod 777 start.sh
 RUN useradd -ms /bin/bash unkusr
 USER unkusr
 
-CMD ./start.sh
+CMD ./start.sh && ./alive.sh
