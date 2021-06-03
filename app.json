@@ -23,15 +23,15 @@
     "env": {
     "API_HASH": {
       "description": "Get your api hash from http://my.telegram.org/",
-      "value": "fda406cc4f648c303a0fb77255f2a026"
+      "value": "********"
     },
     "API_ID": {
       "description": "Get your api id from http://my.telegram.org/",
-      "value": "2712818"
+      "value": "********"
     },
     "BOT_TOKEN": {
       "description": "Get your bot token from @BotFather",
-      "value": "1856887661:AAFmbr2Q4bu6TCRMRFyVjIDDIrazmVWQ1mM"
+      "value": "$$"
     },
     "BASE_URL": {
       "description": "Base URL for selecting torrent file",
