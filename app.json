@@ -1,7 +1,7 @@
 {
-    "name": "TorToolkit-Telegram",
+    "name": "tortk",
     "description": "Telegram leecher bot with python",
-    "logo": "https://raw.githubusercontent.com/devillD/TorToolkit-Telegram/heroku/toolkit.jpg",
+    "logo": "https://telegra.ph/file/b4df4788cf6447bc09f27.jpg",
     "keywords": [
       "telegram",
       "bot",
@@ -16,22 +16,22 @@
         }
       }
     ],
-    "repository": "https://github.com/devillD/TorToolkit-Telegram",
-    "website": "https://github.com/devillD/TorToolkit-Telegram/tree/heroku",
-    "success_url": "https://github.com/devillD/TorToolkit-Telegram/blob/heroku/readme.md",
+    "repository": "https://github.com/Cooldude0340/Tortk",
+    "website": "https://github.com/devillD/TorTk/tree/heroku",
+    "success_url": "https://github.com/cooldude0340/TorTk/blob/heroku/readme.md",
     "stack": "container",
     "env": {
     "API_HASH": {
       "description": "Get your api hash from http://my.telegram.org/",
-      "value": "xxxxxxxxxxxx"
+      "value": "fda406cc4f648c303a0fb77255f2a026"
     },
     "API_ID": {
       "description": "Get your api id from http://my.telegram.org/",
-      "value": "xxxxxxxx"
+      "value": "2712818"
     },
     "BOT_TOKEN": {
       "description": "Get your bot token from @BotFather",
-      "value": "xxxxxxxx"
+      "value": "1856887661:AAFmbr2Q4bu6TCRMRFyVjIDDIrazmVWQ1mM"
     },
     "BASE_URL": {
       "description": "Base URL for selecting torrent file",
@@ -59,7 +59,7 @@
     },
     "SETTINGS_CMD": {
       "description": "Admin Settings command! Better not keep it as default. Make it harder to guess ;)",
-      "value": "settings"
+      "value": "adsettings"
     },
     "EXEC_CMD": {
       "description": "execute command",
