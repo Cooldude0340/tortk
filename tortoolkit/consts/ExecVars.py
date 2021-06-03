@@ -6,8 +6,8 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = os.environ.get("fda406cc4f648c303a0fb77255f2a026")
-        API_ID = int(os.environ.get("2712818"))
+        API_HASH = os.environ.get("API_HASH")
+        API_ID = int(os.environ.get("API_ID"))
         BOT_TOKEN = os.environ.get("1856887661:AAFmbr2Q4bu6TCRMRFyVjIDDIrazmVWQ1mM")
         BASE_URL_OF_BOT = os.environ.get("tor-tool-kit-tg.heroku.app.com")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
